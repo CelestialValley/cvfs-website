@@ -14,39 +14,48 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
-        <a href="service-area.html">Service Area</a>
         <a href="vendor.html">Vendor</a>
         <a href="contact.html">Contact</a>
+	<a href="careers.html">Careers</a>
     </nav>
 </header>
 
+<section class="hero fade-in">
+
+    <!-- Centered logo above headline -->
+    <img class="hero-logo" src="assets/images/cvfs-logo-transparent.png" alt="CVFS Logo">
+
+    <!-- Stronger, more readable headline -->
+    <h1 class="hero-title">Reliable Field Inspections for Banks, Lenders & Asset Managers</h1>
+
+<!-- Buttons split left + right -->
+<div class="hero-buttons">
+    <a href="vendor.html" class="left-btn">Request Vendor Packet</a>
+    <a href="contact.html" class="right-btn">Contact CVFS</a>
+</div>
+
+    </div>
+
+</section>
+
 <main>
-    <section class="hero">
-        <h1>Reliable Field Inspections for Banks, Lenders & Asset Managers</h1>
-        <button>Request Vendor Packet</button>
-        <button>Contact CVFS</button>
-    </section>
-
-    <section class="services-highlight">
-        <h2>Services</h2>
-        <ul>
-            <li>Occupancy Verification</li>
-            <li>Property Condition Reports</li>
-            <li>Loss Draft Inspections</li>
-            <li>Foreclosure Status Checks</li>
-        </ul>
-    </section>
-
-    <section class="why-cvfs">
-        <h2>Why CVFS</h2>
-        <p>Reliable coverage. Structured reporting. Fast turnaround. Compliance-ready documentation.</p>
-    </section>
 </main>
 
-
 <footer>
-    <p>© 2026 CV Field Services</p>
+    <p>Copyright © 2026 CV Field Services - All Rights Reserved</p>
 </footer>
+
+<script>
+    document.querySelector(".left-btn").addEventListener("click", function() {
+        window.location.href = "vendor.html";
+    });
+
+    document.querySelector(".right-btn").addEventListener("click", function() {
+        window.location.href = "contact.html";
+    });
+</script>
+
 
 </body>
 </html>
+
